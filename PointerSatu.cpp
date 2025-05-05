@@ -16,4 +16,9 @@ mhs.showNIM();
 mahasiswa &refMhs = mhs; // pointer reference
 refMhs.nim =3;
 mhs.showNIM();
+
+mahasiswa *pMhs = &mhs; //Pointer dereference
+pMhs ->nim =3;
+pMhs ->showNIM();
+return 0;
 };
